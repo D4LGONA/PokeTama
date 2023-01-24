@@ -5,6 +5,7 @@ import character.ChararcterManager
 bg = None
 Character = None
 
+
 def enter():
     global bg
     global Character
@@ -20,7 +21,7 @@ def exit():
 
 
 def update():
-    pass
+    Character.update()
 
 
 def handle_events():
